@@ -9,32 +9,32 @@
   "env": {
     "PREFIXE": {
       "description": "Préfixe utilisé pour les commandes du bot",
-      "value": ".",
-      "required": false
+      "value": "#",
+      "required": true
     },
     "NOM_OWNER": {
       "description": "Nom de l'Owner du bot",
-      "value": "Ainz",
+      "value": "Mamadou",
       "required": false
     },
     "NUMERO_OWNER": {
       "description": "Numéro WhatsApp de l'Owner (au format international)",
-      "value": "226xxxxxxxx",
+      "value": "221761551591",
       "required": true
     },
     "MODE": {
       "description": "Mode de fonctionnement du bot (public ou private)",
-      "value": "public",
-      "required": false
+      "value": "private",
+      "required": true
     },
     "SESSION_ID": {
       "description": "Identifiant de session",
-      "value": "ovl",
+      "value": "Ovl-MD_eStSycAZ_SESSION-ID",
       "required": true
     },
     "DATABASE": {
       "description": "Lien de la base de données PostgreSQL",
-      "value": "",
+      "value": "postgresql://ulquiorras_database_user:4tpGhxorw1sqz2OR5DgWNNYkhVdssruh@dpg-d1ijq9bipnbc73btl6s0-a.oregon-postgres.render.com/ulquiorras_database",
       "required": false
     },
     "LEVEL_UP": {
